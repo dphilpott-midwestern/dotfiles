@@ -13,7 +13,7 @@ POWERLEVEL9K_MODE="awesome-patched"
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/david/.oh-my-zsh"
+export ZSH="/Users/$USER/.oh-my-zsh"
 export PATH=$HOME/bin:/usr/local/bin:$ZSH:$PATH
 
 # Set name of the theme to load --- if set to "random", it will
