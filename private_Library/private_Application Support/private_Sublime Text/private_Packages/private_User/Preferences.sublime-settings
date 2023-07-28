@@ -1,3 +1,30 @@
 {
-	"theme": "auto"
+	"added_words":
+	[
+		"Philpott",
+	],
+	"color_scheme": "Packages/Theme - Cobalt2/cobalt2.tmTheme",
+	"font_face": "Deja VuSans Nerd Font Book",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage",
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"margin": 0,
+	"material_theme_accent_lime": true,
+	"material_theme_accent_scrollbars": true,
+	"material_theme_arrow_folders": true,
+	"material_theme_bold_tab": true,
+	"material_theme_compact_panel": true,
+	"material_theme_compact_sidebar": true,
+	"material_theme_contrast_mode": true,
+	"material_theme_small_statusbar": true,
+	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
+	"material_theme_tabs_separator": true,
+	"material_theme_titlebar": true,
+	"theme": "Material-Theme.sublime-theme",
+	"update_check": false,
 }
