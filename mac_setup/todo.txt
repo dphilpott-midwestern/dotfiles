@@ -1,0 +1,31 @@
+Had to su in an admin user, which may have aused issues
+
+Had to set
+sudo chmod 755 Makefile
+to be able to do anything
+
+homebrew install was busted. The resulting entry in .zprofile is 'eval ""'
+Also went into the admin's zprofile instead, since I was su into that user
+Then I don't have brew in my path so can't install anything etc.
+ So need to fix this not resolving properly
+ 	(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/${USER}/.zprofile
+	eval "$(/opt/homebrew/bin/brew shellenv)"
+
+ Probably want to switch to zsh immediately, as in before brew, so I'm installig via that shell
+
+ for gem install, got
+ ERROR: SSL verification error at depth 2: unable to get local issuer certificate (20)
+ ERROR: You must add /O=Cisco/CN=Cisco Umbrella Root CA to your local trusted store
+
+Wrote in a user variable, and switched zsh install to use that user insteal
+
+Having a separate admin account is awful
+
+Need to manually let krabiner do things in privacy and security by entering password
+
+Sort sublime text, sublime merge, config and licenses
+Sort pycharm license and config
+Sort git / work folder
+Sort git config & gen ssh key?
+Sort AWS config?
+Sort Firefox profile template
